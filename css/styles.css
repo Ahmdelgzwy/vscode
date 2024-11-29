@@ -4,15 +4,17 @@
     font: 1em sans-serif;
 }
 
-header {
+.header {
     display: flex;
     justify-content: space-between;
     align-items: center;
     text-align: center;
     width: 100vw;
     height: 60px;
+    position: fixed;
+    background-color: rgba(40, 39, 44, .5);
+    backdrop-filter: blur(10px); 
 
-    background-color: rgba(40, 39, 44, 1);
 
 }
 
@@ -24,7 +26,7 @@ header {
 
 .logo {
     color: white;
-
+    font-weight: bolder;
 }
 
 
@@ -41,17 +43,22 @@ header {
     display: inline-block;
     text-decoration: none;
     margin-left: 50px;
-    color: white;
 
 }
 
 
 .hdrcont li a {
-    color: inherit;
+    color: white;
     text-decoration: none;
-
+    font-weight: bold;
+    transition: color 0.3s ease, background-color 0.3s ease; /* Adds transition effect */
 }
 
+.hdrcont li:hover a{
+    color: rgb(113, 74, 255);
+    cursor: pointer;
+
+}
 
 .btncontainer {
     padding-right: 25px;
@@ -77,6 +84,7 @@ header {
 }
 /*****************************************************/
 .home {
+    padding-top: 60px;
     display: flex;
     width: 100vw;
     height: calc(100vh - 60px);
@@ -93,7 +101,6 @@ header {
     color: white;
     font-weight: 700;
     background-color: rgba(40, 39, 44, .7);
-
 }
 
 .homecont h2 {
@@ -147,3 +154,11 @@ header {
 }
 
 /*************************************************************************/
+
+.features {
+    width: 100vw;
+    /* height: 100vh; */
+    background-color: rgba(40, 39, 44, 1);
+    height: calc(100vh - 60px);
+
+}
