@@ -14,6 +14,9 @@
     position: fixed;
     background-color: rgba(40, 39, 44, .5);
     backdrop-filter: blur(10px); 
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgba(40, 39, 44);
 
 
 }
@@ -91,9 +94,14 @@
     background-image: url(/css/R.png);
     justify-content: center;
     align-items: center;
+    
 }
 
 .homecont {
+    backdrop-filter: blur(10px); 
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgba(40, 39, 44);
     border-radius: 100px;
     width: 50vw;
     height: 300px;
@@ -213,41 +221,142 @@
 
 /**********************************************************/
 
-.download {
-    /* background-color: cadetblue; */
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+.ed1 {
     width: 100vw;
-    height: 40vh;
-    /* padding-left: 20px;
-    padding-right: 20px;
-    padding-top: 20px;
-    padding-bottom: 20px; */
+    height: 5px;
+    background-color: rgb(113, 74, 255);
 }
 
-/* .dccontainer {
+
+
+
+
+
+
+
+
+
+
+/*//////////////////////////////////////////////////*/
+.download {
     display: flex;
-    padding-left: 20px;
-    padding-right: 20px;
-} */
-
-.windows {
-    height: 100vh;
-    flex: 1;
-    background-color: cadetblue;
-}
-
-.linux {
-    flex: 1;
-    background-color: cadetblue;
+    width: 100vw;
+    height: 400px;
+    background-color: rgba(40, 39, 44, .7);
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-weight: bold;
+    background-image: url(/css/R.png);
 
 
 }
 
-.mac {
+
+.dwc {
+    
+}
+
+.dw {
+
     flex: 1;
-    background-color: cadetblue;
+    background-color: rgba(40, 39, 44, .7);
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgba(40, 39, 44, .7);
+    backdrop-filter: blur(10px); 
+
+    
+}
+
+.dw h3 {
+    padding-bottom: 20px;
+}
+
+.dm {
+    flex: 1;
+    background-color: rgba(40, 39, 44, .7);
+
 
 }
+
+.dm h3 {
+    padding-bottom: 20px;
+}
+
+
+.dl {
+    flex: 1;
+    /* padding: 25px; */
+    background-color: rgba(40, 39, 44, .7);
+
+}
+
+.dl h3 {
+    padding-bottom: 20px;
+}
+
+
+
+.wdb {
+    padding: 15px 25px;
+    border-radius: 20px;
+    border-width: 1px;
+    border-style: solid;
+    color: rgb(40, 39, 44);
+    background-color: white;
+    transition: background-color 1s ease, color 1s ease; 
+    transition: transform .7s ease, color .7s ease; 
+
+}
+
+.wdb:hover {
+    background-color: rgb(113, 74, 255);
+    color:white;
+    cursor: pointer;
+    transform: scale(1.2);  
+
+
+}
+
+
+.mdb {
+    padding: 15px 25px;
+    border-radius: 20px;
+    border-width: 1px;
+    border-style: solid;
+    color: rgb(40, 39, 44);
+    background-color: white;
+    transition: background-color 1s ease, color 1s ease; 
+    transition: transform .7s ease, color .7s ease; 
+
+}
+
+.mdb:hover {
+    background-color: rgb(113, 74, 255);
+    color:white;
+    cursor: pointer;
+    transform: scale(1.2);  
+
+}
+
+
+.ldb {
+    padding: 15px 25px;
+    border-radius: 20px;
+    border-width: 1px;
+    border-style: solid;
+    color: rgb(40, 39, 44);
+    background-color: white;
+    transition: background-color 1s ease, color 1s ease; 
+    transition: transform .7s ease, color .7s ease; 
+}
+
+.ldb:hover {
+    background-color: rgb(113, 74, 255);
+    color:white;
+    cursor: pointer;
+    transform: scale(1.2);  
+}
+
