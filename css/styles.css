@@ -242,7 +242,7 @@
 .download {
     display: flex;
     width: 100vw;
-    height: 400px;
+    height: 300px;
     background-color: rgba(40, 39, 44, .7);
     text-align: center;
     align-items: center;
@@ -256,17 +256,23 @@
 
 
 .dwc {
-    
-}
-
-.dw {
-
-    flex: 1;
-    background-color: rgba(40, 39, 44, .7);
+    padding-top: 40px;
+    width: 350px;
+    height: 120px;
+    border-radius: 35px;
     border-width: 1px;
     border-style: solid;
     border-color: rgba(40, 39, 44, .7);
     backdrop-filter: blur(10px); 
+}
+
+.dw {
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
 
     
 }
@@ -275,9 +281,31 @@
     padding-bottom: 20px;
 }
 
+
+
+
+.dmc {
+    padding-top: 40px;
+    width: 350px;
+    height: 120px;
+    border-radius: 35px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgba(40, 39, 44, .7);
+    backdrop-filter: blur(10px); 
+}
+
+
+
+
+
+
 .dm {
+    display: flex;
     flex: 1;
-    background-color: rgba(40, 39, 44, .7);
+    justify-content: center;
+    align-items: center;
+    text-align: center;
 
 
 }
@@ -287,10 +315,31 @@
 }
 
 
+
+
+
+
+.dlc {
+    padding-top: 40px;
+    width: 350px;
+    height: 120px;
+    border-radius: 35px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgba(40, 39, 44, .7);
+    backdrop-filter: blur(10px); 
+}
+
+
+
+
+
 .dl {
+    display: flex;
     flex: 1;
-    /* padding: 25px; */
-    background-color: rgba(40, 39, 44, .7);
+    justify-content: center;
+    align-items: center;
+    text-align: center;
 
 }
 
